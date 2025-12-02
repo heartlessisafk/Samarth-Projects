@@ -1,0 +1,32 @@
+movie_id,title,genre,language,mood,rating,year,description
+1,The Matrix,Sci-Fi|Action,English,intense,8.7,1999,A hacker discovers reality is a simulation.
+2,Inception,Sci-Fi|Thriller,English,intense,8.8,2010,A thief enters dreams to steal secrets.
+3,Interstellar,Sci-Fi|Drama,English,thoughtful,8.6,2014,A team travels through a wormhole searching for a new home.
+4,The Dark Knight,Action|Crime,English,intense,9.0,2008,Batman faces the Joker in Gotham.
+5,The Avengers,Action|Adventure,English,excited,8.0,2012,Superheroes team up to save Earth.
+6,Guardians of the Galaxy,Action|Comedy,English,happy,8.0,2014,A group of misfits protect the galaxy.
+7,Forrest Gump,Drama|Romance,English,emotional,8.8,1994,A simple man lives an extraordinary life.
+8,The Shawshank Redemption,Drama,English,thoughtful,9.3,1994,Two prisoners build a deep friendship and plan escape.
+9,La La Land,Musical|Romance,English,romantic,8.0,2016,Two artists chase dreams and love in Los Angeles.
+10,Whiplash,Drama,English,intense,8.5,2014,A drummer faces a brutal music teacher.
+11,3 Idiots,Comedy|Drama,Hindi,happy,8.4,2009,Three engineering students question the education system.
+12,Taare Zameen Par,Drama,Hindi,emotional,8.3,2007,A teacher helps a dyslexic child discover his talent.
+13,Chhichhore,Comedy|Drama,Hindi,happy,8.0,2019,A father recalls college days to inspire his son.
+14,ZNMD,Comedy|Adventure,Hindi,chill,8.1,2011,Three friends go on a road trip in Spain.
+15,Andhadhun,Thriller|Dark,Hindi,intense,8.2,2018,A blind pianist gets stuck in a murder mystery.
+16,Your Name,Anime|Romance,Anime-JP,romantic,8.4,2016,Two strangers mysteriously swap bodies.
+17,Spirited Away,Anime|Fantasy,Anime-JP,wholesome,8.6,2001,A girl enters a magical spirit world.
+18,Attack on Titan: Chronicle,Anime|Action,Anime-JP,intense,8.7,2020,Humanity fights against giant titans.
+19,Demon Slayer: Mugen Train,Anime|Action,Anime-JP,intense,8.3,2020,Demon slayers guard passengers on a haunted train.
+20,The Social Network,Drama,English,thoughtful,7.8,2010,The story of how Facebook was created.
+21,Inside Out,Animation|Family,English,wholesome,8.1,2015,Emotions inside a girl's mind deal with change.
+22,Coco,Animation|Family,English,wholesome,8.4,2017,A boy travels to the Land of the Dead to find his ancestor.
+23,The Pursuit of Happyness,Drama,English,emotional,8.0,2006,A struggling father never gives up on his dream.
+24,DDLJ,Romance,Hindi,romantic,8.0,1995,A love story across Europe and India.
+25,Barfi!,Romance|Drama,Hindi,wholesome,8.1,2012,A mute and deaf man finds love and friendship.
+26,PK,Comedy|Drama,Hindi,thoughtful,8.1,2014,An alien questions human behavior and religion.
+27,Edge of Tomorrow,Sci-Fi|Action,English,excited,7.9,2014,A soldier relives the same battle day repeatedly.
+28,The Martian,Sci-Fi|Drama,English,thoughtful,8.0,2015,A stranded astronaut survives alone on Mars.
+29,Joker,Drama|Thriller,English,emotional,8.4,2019,The story of a lonely man turning into the Joker.
+30,Dear Zindagi,Drama,Hindi,thoughtful,7.5,2016,A young woman talks to a therapist to heal.
+
