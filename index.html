@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samarth Shukla – Projects Portfolio</title>
+
+<style>
+    body {
+        font-family: 'Inter', Arial, sans-serif;
+        background: #f4f6fa;
+        margin: 0;
+        padding: 0;
+        color: #222;
+    }
+
+    .header {
+        background: linear-gradient(135deg, #1d2b64, #1fa2ff);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin: 0;
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    .header p {
+        font-size: 18px;
+        margin-top: 10px;
+        opacity: 0.9;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1000px;
+        margin: 40px auto;
+    }
+
+    .project-card {
+        background: white;
+        border-radius: 14px;
+        padding: 25px;
+        margin: 25px 0;
+        box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0px 10px 28px rgba(0,0,0,0.12);
+    }
+
+    .project-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #1d2b64;
+        margin-bottom: 10px;
+    }
+
+    .project-description {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .tag {
+        display: inline-block;
+        background: #1fa2ff22;
+        color: #1d2b64;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 13px;
+        margin-right: 6px;
+        margin-top: 6px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px 0;
+        color: #555;
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Samarth Shukla</h1>
+    <p>AI/ML • Medical Imaging • Computer Vision • Deep Learning</p>
+</div>
+
+<div class="container">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+        <div class="project-title">🧠 3D U-Net Brain Tumor Segmentation (BraTS MRI)</div>
+        <div class="project-description">
+            Built an end-to-end medical AI system capable of tumor segmentation on BraTS MRI datasets using a custom 3D U-Net pipeline. Implemented complete preprocessing, training, evaluation, and overlay visualization. Added 3D tumor reconstruction using marching cubes and deployed the system with a Flask API + browser-based demo for real-time inference and 3D mesh viewing.
+        </div>
+        <span class="tag">Python</span>
+        <span class="tag">PyTorch</span>
+        <span class="tag">3D U-Net</span>
+        <span class="tag">BraTS</span>
+        <span class="tag">Flask</span>
+        <span class="tag">Computer Vision</span>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+        <div class="project-title">👤 Face Detection & Facial Landmarks</div>
+        <div class="project-description">
+            Implemented real-time face detection using Haar cascades and CNN-based facial landmark detection. Built preprocessing, detection, and keypoint extraction pipelines suitable for biometric applications.
+        </div>
+        <span class="tag">OpenCV</span>
+        <span class="tag">Haar Cascade</span>
+        <span class="tag">CNN</span>
+    </div>
+
+    <!-- PROJECT 3 -->
+    <div class="project-card">
+        <div class="project-title">📷 Basic Computer Vision Pipeline</div>
+        <div class="project-description">
+            Developed foundational CV operations including grayscale conversion, histogram equalization, thresholding, noise removal, and edge detection to support larger medical imaging tasks.
+        </div>
+        <span class="tag">OpenCV</span>
+        <span class="tag">Image Processing</span>
+    </div>
+
+    <!-- PROJECT 4 -->
+    <div class="project-card">
+        <div class="project-title">🐍 Snake.io Python Game</div>
+        <div class="project-description">
+            Created the classic Snake game in Python with clean game loops, point tracking, collision handling, and user input control.
+        </div>
+        <span class="tag">Python</span>
+        <span class="tag">Game Dev</span>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Samarth Shukla — All Rights Reserved.
+</footer>
+
+</body>
+</html>
