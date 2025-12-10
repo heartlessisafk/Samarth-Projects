@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BraTS U-Net Segmentation Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Brain Tumor Segmentation Demo</h1>
+      <p>Upload BraTS-style MRI volumes (T1, T1ce, T2, FLAIR) to run 3D U-Net segmentation.</p>
+    </header>
+
+    <section class="upload-section">
+      <form id="upload-form">
+        <label>T1 MRI (.nii/.nii.gz)</label>
+        <input type="file" name="t1" required />
+
+        <label>T1ce MRI (.nii/.nii.gz)</label>
+        <input type="file" name="t1ce" required />
+
+        <label>T2 MRI (.nii/.nii.gz)</label>
+        <input type="file" name="t2" required />
+
+        <label>FLAIR MRI (.nii/.nii.gz)</label>
+        <input type="file" name="flair" required />
+
+        <button type="submit">Run Segmentation</button>
+      </form>
+
+      <div id="status"></div>
+    </section>
+
+    <section class="results-section">
+      <h2>Results</h2>
+      <div class="results-grid">
+        <div>
+          <h3>2D Overlay (Sample)</h3>
+          <img id="overlay-img" alt="Segmentation overlay" />
+        </div>
+        <div>
+          <h3>3D Tumor Mesh</h3>
+          nvas id="mesh-canvass"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Research prototype – not for clinical use.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
